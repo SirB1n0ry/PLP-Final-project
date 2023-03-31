@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/register</title>
+    <link rel="stylesheet" href="loginstyle.css" />
+    <script src="signup.js" defer></script>
+    <link rel="stylesheet" href="styleindex.css" />
+  </head>
+  <body>
+    <!--navigation and head section -->
+    <header>
+      <nav class="nav">
+        <a href="index.html">
+          <img
+            style="width: 100px; height: 70px; border-radius: 40px"
+            src="images/ydid logo.jpg"
+            alt="logo of website"
+          />
+        </a>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="nav-link hide">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="signup.html">Login</a>
+        </div>
+      </nav>
+    </header>
+    <!--Login/register html logic-->
+    <div class="login-container">
+      <div id="main">
+        <h1>Sign In</h1>
+        <input id="email" type="email" placeholder="Email" />
+        <input id="password" type="password" placeholder="Password" />
+        <button id="submit">Login</button>
+        <p><span>or</span></p>
+        <button id="sign-up">Sign Up</button>
+      </div>
+      <div id="create-acct">
+        <h1>Create an Account</h1>
+        <input id="email-signup" type="email" placeholder="Email" />
+        <input id="confirm-email" type="email" placeholder="Confirm Email" />
+        <input id="passsword-signup" type="password" placeholder="Password" />
+        <input
+          id="confirm-password"
+          type="password"
+          placeholder="Confirm password"
+        />
+        <button id="create-acct-btn">Create Account</button>
+        <button id="return-btn">Return to Login</button>
+      </div>
+    </div>
+  </body>
+</html>
